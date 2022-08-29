@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ordered list & unordered list</title>
+    </head>
+
+    <body>
+
+        <!-- Ordered List -->
+
+        <ol type="1">
+            <li>Home</li>
+            <li>Introduction</li>
+            <li>Editors</li>
+        </ol>
+
+        <ol type="A">
+            <li>Basic</li>
+            <li>Elements</li>
+            <li>Attributes</li>
+        </ol>
+
+        <ol type="a">
+            <li>Headings</li>
+            <li>Paragraphs</li>
+            <li>Styles</li>
+        </ol>
+
+        <ol type="I">
+            <li>Formatting</li>
+            <li>Quotations</li>
+            <li>Comments</li>
+        </ol>
+
+        <ol type="i">
+            <li>File Paths</li>
+            <li>Head</li>
+            <li>Layout</li>
+        </ol>
+
+        <!-- Unorderd List -->
+
+        <ul type="none">
+            <li>Colors</li>
+            <li>CSS</li>
+            <li>Links</li>
+        </ul>
+
+        <ul type="disc">
+            <li>Images</li>
+            <li>Favicon</li>
+            <li>Tables</li>
+        </ul>
+
+        <ul type="circle">
+            <li>Lists</li>
+            <li>Block & Inline</li>
+            <li>Classes</li>
+        </ul>
+
+        <ul type="square">
+            <li>Id</li>
+            <li>Iframes</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <!-- Tables -->
+
+        <head>
+            <style>
+                table, th, td {
+                    border: 1px solid black;
+                    border-inline: inline;
+                }
+                th, td {
+                    background-color: rgb(214, 220, 25);
+                }
+            </style>
+        </head>
+
+        <h2>-------------Details--------------</h2>
+
+        <table style="width:25%">
+            <tr>
+                <th>Name</th>
+                <th>Contact</th>
+                <th>Place</th>
+            </tr>
+
+            <tr>
+                <td>Chandru</td>
+                <td>8970816064</td>
+                <td>Channagiri</td>
+            </tr>
+            <tr>
+                <td>Venkatesh</td>
+                <td>9113554220</td>
+                <td>Bhadravathi</td>
+            </tr>
+            <tr>
+                <td>Swathi</td>
+                <td>7618783555</td>
+                <td>Channagiri</td>
+            </tr>
+            <tr>
+                <td>Prajwal</td>
+                <td>9741200785</td>
+                <td>Shimogga</td>
+            </tr>
+            <tr>
+                <td>Sachin</td>
+                <td>8150037106</td>
+                <td>Channagiri</td>
+            </tr>
+            <tr>
+                <td>Vinay</td>
+                <td>9538467832</td>
+                <td>Channagiri</td>
+            </tr>
+            <tr>
+                <td>Vijay</td>
+                <td>9739763936</td>
+                <td>Channagiri</td>
+            </tr>
+            <tr>
+                <td>Ravi</td>
+                <td>6360506455</td>
+                <td>Channagiri</td>
+            </tr>
+            <tr>
+                <td>Nitya</td>
+                <td>9071020998</td>
+                <td>tumkur</td>
+            </tr>
+            <tr>
+                <td>Darshan</td>
+                <td>8884546207</td>
+                <td>Bhadravathi</td>
+            </tr>
+            <tr>
+                <td>Bharath</td>
+                <td>8722159292</td>
+                <td>Jagalur</td>
+            </tr>
+            <tr>
+                <td>Basavesh</td>
+                <td>9980445211</td>
+                <td>Mysuru</td>
+            </tr>
+            <tr>
+                <td>Chandan</td>
+                <td>7760671425</td>
+                <td>Tiptur</td>
+            </tr>
+            <tr>
+                <td>Vinay</td>
+                <td>8970877229</td>
+                <td>Madugiri</td>
+            </tr>
+            <tr>
+                <td>Sagar</td>
+                <td>7760837096</td>
+                <td>Hassan</td>
+            </tr>
+            <tr>
+                <td>Manthesh</td>
+                <td>9945899438</td>
+                <td>Belagam</td>
+            </tr>
+        </table>
+
+        <!-- Form -->
+
+        <form>
+            <h2>---Personal Details---</h2>
+            <div>
+                <label>Username</label>
+                <input type="text" minlength="1" maxlength="10" placeholder="Enter Username">
+            </div>
+            <br>
+            
+            <label>DOB</label>
+            <select id="date" name="dd" onchange="change_dd">
+                <option>01</option>
+            </select>
+            
+            <br>
+            <div>
+                <label>Age</label>
+                <input type="number" min="1" max="100" placeholder="Age">
+            </div>
+            <br>
+            <div>
+                <label>Mobile</label>
+                <input type="tel" placeholder="Enter number">
+            </div>
+            <br>
+            <div>
+                <label>Address</label>
+                <textarea rows="5" cols="20"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Upload File</label>
+                <input type="file">
+            </div>
+            <br>
+            <div>
+                <button type="button">Register</button>
+            </div>
+
+        </form>
+    </body>
+</html>

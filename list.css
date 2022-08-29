@@ -1,0 +1,95 @@
+h1, h2{
+    color: crimson;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+div {
+    color: chartreuse;
+}
+.username{
+    color: blueviolet;
+}
+#email{
+    color: brown;
+}
+
+tr:hover{
+    color: darkgoldenrod;
+    background-color: aqua;
+}
+
+tr{
+    color: aquamarine;
+}
+
+h1:hover{
+  color: darkgoldenrod;
+  background-color: aqua;
+}
+
+h1{
+  color: aquamarine;
+}
+
+form{
+    font-size: xx-large;
+    font-style: italic ;
+    color: blueviolet;
+    background-color: black;
+    
+
+  }
+  .username{
+  animation: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  color: darksalmon;
+  }
+  h1 {
+    padding:20px;
+    border:1px dotted darkred;
+    margin:20px;
+    background-color: azure;
+
+  }
+
+  h1 :hover{
+    color: blueviolet;
+
+  }
+  h1 {
+    color:darkseagreen;
+  }
+  .box {
+    border:50px solid coral ;
+    height:100px;
+    width:200px;
+    
+
+  
+  }
+
+  /* Adjacent Selector*/
+  div + p {
+    color:blue;
+  }
+
+  /*General Sibling Selector*/
+  div ~ p{
+    color: aqua;
+  }
+
+  .fixed{
+    position: fixed;
+    top: 0;
+  }
+
+  .image{
+    position: relative;
+  }
+
+  .topleft{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
